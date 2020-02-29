@@ -1,6 +1,7 @@
-#heading {
-    float: center;
+body {
+    background-image: url("/Users/melaniebott/Desktop/BOOTCAMP/Basic-Portfolio/assets/images/background.jpg")
 }
+
 
 body{
     margin: 0%;
@@ -33,11 +34,12 @@ body{
         vertical-align: baseline;
 }
 
-
-.profile-pic {
-    height: 240px;
-    width: 202px;
-    float: left;
+.container {
+    margin-left: 60px;
+    width: 50%;
+    margin: 10px 80px 10px 40px;
+    padding: 10px 40px 20px 50px;
+    font-size: 18px;
 }
 
 .bio {
