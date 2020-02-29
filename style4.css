@@ -1,0 +1,26 @@
+* //style sheet for headers and footers\\ *
+
+
+.Header {
+    position: fixed;
+    font-size: 33px;
+    color: #f2f2f2;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 2px;
+    height: 40px;
+    margin-top: 40px;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    background-color: gray;
+    background-size: 160px 60px 160px 60px;
+    color: white;
+    padding-top: none;
+    padding-bottom: none;
+    border-top: rgb(78, 182, 173) solid 8px;
+    font-size: 10px;
+ }
