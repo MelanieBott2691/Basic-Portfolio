@@ -1,11 +1,65 @@
 * //style sheet for About Me page\\ *
 
-
-.Header {
-    position: fixed;
-    font-size: 33px;
-    color: #f2f2f2;
+body {
+    background-image: 
 }
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.h1 {
+    padding: 35px;
+    margin: 5px;
+    width: 350px;
+    height: 20px;
+    float: left;
+    position: fixed;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 10px;
+    text-align: left;
+}
+.h1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    overflow: hidden;
+    padding-top: 30px;
+    padding-left: 40px;
+    width: 190px;
+    height: 55px;
+}
+
+.nav {
+    float: right;
+    max-width: 960px;
+    height: auto;
+    margin: 10px 20px 10px 20px;
+    text-align: justify;
+    text-underline-position: none;
+    background-color: #ffffff;  
+    list-style-type: none;
+}
+
+
+
+.background {
+    width: 100%;
+    height: 100%;
+    background-image: url(/Users/melaniebott/Desktop/BOOTCAMP/Basic-Portfolio/assets/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-y: auto;
+
+}
+
+
+
+
+
 
 
 .navbar {
@@ -19,7 +73,7 @@
 .navbar {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #ffffff;
     text-align: right;
     padding: 14px 16px;
     text-decoration: none;
@@ -39,29 +93,13 @@
     position:left;
 }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 2px;
-    height: 40px;
-    margin-top: 40px;
-    text-align: center;
-    vertical-align: middle;
-    width: 100%;
-    background-color: gray;
-    background-size: 160px 60px 160px 60px;
-    color: white;
-    padding-top: none;
-    padding-bottom: none;
-    border-top: rgb(78, 182, 173) solid 8px;
-    font-size: 10px;
- }
+
 
  .copyright {
     padding: 0%;
     margin-top: 4px;
     margin-bottom: none;
     font-display: bottom;
-    color: white;
+    color: #ffffff;
  }
  
