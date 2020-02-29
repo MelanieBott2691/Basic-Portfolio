@@ -1,69 +1,51 @@
+#heading {
+    float: center;
+}
+
 body{
     margin: 0%;
-    padding: 10%;
-    text-align: center;
-    background-image: url("/Users/melaniebott/Desktop/BOOTCAMP/Basic-Portfolio/assets/images/Contact Image.png");
-    background-size: cover;
-    background-position: center;
-    font-family: sans-serif;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    padding: 0px;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    border: 0;
+        border-top-width: 0px;
+        border-top-style: initial;
+        border-top-color: initial;
+        border-right-width: 0px;
+        border-right-style: initial;
+        border-right-color: initial;
+        border-bottom-width: 0px;
+        border-bottom-style: initial;
+        border-bottom-color: initial;
+        border-left-width: 0px;
+        border-left-style: initial;
+        border-left-color: initial;
+        border-image-source: initial;
+        border-image-width: 0px;
+    font-family: inherit;
+        font-size: 100%;
+        vertical-align: baseline;
 }
 
-.contact-title
-{
-    margin-top: 100px;
-    color: #ffffff;
-    text-transform: uppercase;
-    transition: all 4s ease-in-out;
+
+.profile-pic {
+    height: 240px;
+    width: 202px;
+    float: left;
 }
 
-.contact-title h1
-{
-    font-size: 52px;
-    line-height: 10px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+.bio {
+    padding: 30px;
+    border: solid #dddddd;
+    margin: 55px 265px -55px 250px;
+    width: 960px;
+    background-color: #ffffff;
+    color: #777777;
 
-.contact-title h2
-{
-    font-size: 2S6px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-form
-{
-    width: 600px;
-    background: transparent;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid gray;
-    box-sizing: 600px;
-    color: #ffffff;
-    font-size: 38px;
-    margin-bottom: 36px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-inline: 0;
-}
-
-input
-{
-    height: 45px;
-}
-
-form .submit
-{
-    background: #ff5722;
-    border-color: transparent;
-    color: #fff;
-    font-size: 20px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    height: 50px;
-    margin-top: 20px;
-}
-
-form .submit:hover
-{
-    background-color: #f44336;
-    cursor: pointer;
 }

@@ -2,7 +2,7 @@
     <head>
         <title>Contact Form</title>
         
-        <link rel="stylesheet" href="/Users/melaniebott/Desktop/BOOTCAMP/Basic-Portfolio/style2.css">
+        <link rel="stylesheet" href="/Users/melaniebott/Desktop/BOOTCAMP/Basic-Portfolio/style2Contact.css">
     </head>
 
     <body>
@@ -10,27 +10,19 @@
             <h1>Say Hello</h1>
             <h2>Please let me know what you have to say!</h2>
         </div>
-
-        <div class="contact-form">
-                <form id="contact-form" method="post" action="contact-form-handler.php">
-                <input name="name" type="text" class="form-control" placeholder="Your Email" 
-                required width="1600px" style="
-                    width: 300px;
-                    height: 35px;
-                "><br>
-                <p></p>
-                <textarea name="message" class="form-control" placeholder="Message" row="4"
-                required style="
-                    width: 300px;
-                    height: 126px;
-                "></textarea><br>
-                
-                <input type="submit" class="form-control" submit value="Send Message">
-
+        <hr>
+        <form action="/action_page.php">
+            <float-left><label for="fname">Name:</label></float-left><br>
+            <textarea name="email" cols="35"></textarea><br>
+            <label for="">Email:</label><br>
+            <textarea name="email" cols="35"></textarea><br>
+            <label for="lname">Message:</label><label><br>
+            <textarea name="message" rows="12" cols="150"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+        
             </form>
         </div>
         
     </body>
 </html>
-
-
