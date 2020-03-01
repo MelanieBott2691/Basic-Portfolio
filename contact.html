@@ -5,42 +5,37 @@
 <meta name="viewpoint" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <link rel="stylesheet" type="text/css" href="/Users/melaniebott/Desktop/BOOTCAMP/Basic-Portfolio/style.css">
-<link rel="stylesheet" type="text/css" href="/Users/melaniebott/Desktop/BOOTCAMP/Basic-Portfolio/style2.css">
-<link rel="stylesheet" type="text/css" href="/Users/melaniebott/Desktop/BOOTCAMP/Basic-Portfolio/style4.css">
 <title>Contact Form</title>
 </head>
 
-
-<body>
-    <header>
-        <div class="container">
-    
+    <header class="container clearfix">
+      <div class="header_container">
+        <a href="index.html" class="logo">
+          Melanie Bott
+        </a>
         <nav>
-            <ul>
+          <ul>
             <li><a href="#">About</a></li>
             <li><a href="#">Portfolio</a></li>
             <li><a href="#">Contact</a></li>
-            </ul>
+          </ul>
         </nav>
-        </div>
-</header>
-<section>
-    <h1>Melanie Bott</h1>
-</section>
+      </div>
+    </header>
 
-<div class="container">
-    <h2>Contact</h2>
-</div>
-<hr>
+    <section class="about_me">
+      <h2>Contact</h2>
 
-<form action="/action_page.php">
+<form class="about_me">
+    <div class="fname">
     <float-left><label for="fname">Name:</label></float-left><br>
     <textarea name="email" cols="35"></textarea><br>
     <label for="">Email:</label><br>
     <textarea name="email" cols="35"></textarea><br>
-    <label for="lname">Message:</label><label><br>
+    <label for="lname">Message:</label><br>
     <textarea name="message" rows="12" cols="150"></textarea><br>
-    <input type="submit" value="Submit">
+    <div class="button" input type="submit" value="Submit" color="fname"></div>
+    </div>
 </form>
 
 <div class="footer">

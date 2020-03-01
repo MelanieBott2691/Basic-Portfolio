@@ -1,22 +1,28 @@
-* //style sheet for About Me page\\ *
+/* * //style sheet for About Me page\\ * */
 
 body {
-    background-image: url("/Users/melaniebott/Desktop/BOOTCAMP/Basic-Portfolio/assets/images/background.jpg")
+    background-image: url("/Users/melaniebott/Desktop/BOOTCAMP/Basic-Portfolio/assets/images/background.jpg");
+    margin: 0px;
 }
 
+
 .container {
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
+    margin: auto;
+    border-bottom: 2px solid #cccccc;
+    background-color: #ffffff;
+
+}
+
+
+.clearfix::after {
+    clear: both;
+    display: block;
+    content:"";
 }
 
 head {
     background-color: #ffffff;
-}
-
-header::after {
-    content: '';
-    display: table;
-    clear: both;
 }
 
 nav {
@@ -34,7 +40,6 @@ nav li {
     display: inline-block;
     margin-left: 30px;
     padding-bottom: 0;
-
     position: relative;
 }
 
@@ -49,49 +54,64 @@ nav a:hover {
     color: #4aaaa5; 
 }
 
-h1 {
-    padding: 35px;
-    margin: 0;
-    float: left top;
-    position: fixed;
-    font-size: 40px;
-    font-weight: bold;
-    line-height: 10px;
-    text-align: left;
+.header_container {
+    max-width: 960px;
+    margin: auto;
+    display: block;
+
+}
+.fname {
+    color: #666666;
+    font-size: 16px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
-h1 {
+.logo {
+    float: left;
+    width: 250px;
+    height: 70px;
+    padding-top: 30px;
     background-color: #4aaaa5;
-    color: #ffffff;
-    overflow: hidden;
-    padding-top: 40px;
-    padding-left: 120px;
-    padding-bottom: 10px;
-    width: 190px;
-    height: 55px;
-    margin-top: -30px;
+    text-decoration: none;
+    font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
 }
 
-.container h2 {
-    width: 50%;
-    margin: 150px 80px 100px 40px;
-    padding: 0;
-    font-size: 35px;
-
+.about_me {
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    max-width: 910px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    padding: 25px;
+    padding-top: 0px;
+    font-size: 25px;
+    color: #4aaaa5;
 } 
+
 .h2 {
-    margin-bottom: -60px;
     margin-left: 0;
     padding: 0;
     font-size: 35px;
 }
 
-.container h3 {
-    width: 50%;
-    margin: 10px 80px 10px 40px;
-    padding: 10px 80px 10px 50px;
-
+.button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 18px;
 }
 
 p {   
@@ -100,18 +120,30 @@ p {
     font-size: 16px;
     line-height: 1.8;
     text-align: justify;
-    padding-right: 150px;
-    padding-left: 60px;
-    padding-top: 15px;
 
 }
 
 img {
     float: left;
-    width: 280px;
-    height: 310px;
-    padding-left: 40px;
+    width: 320px;
     margin: 20px;
+    margin-left: 0;
 }
 
- 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 2px;
+    height: 40px;
+    margin-top: 40px;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    background-color: #666666;
+    background-size: 160px 60px 160px 60px;
+    color: #ffffff;
+    padding-top: none;
+    padding-bottom: none;
+    border-top: #4aaaa5 solid 8px;
+    font-size: 10px;
+ }

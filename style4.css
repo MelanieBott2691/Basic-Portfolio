@@ -1,14 +1,7 @@
-* //style sheet for HEADERS and FOOTERS\\ *
+/* * //style sheet for HEADERS and FOOTERS\\ * */
 
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
 
-head {
-    background-color: #ffffff;
-}
 
 header::after {
     content: '';

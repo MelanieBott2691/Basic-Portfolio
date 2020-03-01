@@ -1,3 +1,8 @@
+/* * //style sheet for Portfolio\\ * */
+
+
+
+
 body {
     background-image: url("/Users/melaniebott/Desktop/BOOTCAMP/Basic-Portfolio/assets/images/background.jpg")
 }
@@ -49,5 +54,8 @@ body{
     width: 960px;
     background-color: #ffffff;
     color: #777777;
+
+}
+.portfolio {
 
 }
