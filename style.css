@@ -69,8 +69,8 @@ nav a:hover {
 .logo {
     float: left;
     width: 250px;
-    height: 70px;
-    padding-top: 30px;
+    height: 50px;
+    padding-top: 10px;
     background-color: #4aaaa5;
     text-decoration: none;
     font-size: 30px;
@@ -93,6 +93,19 @@ nav a:hover {
     color: #4aaaa5;
 } 
 
+.about_contact {
+    padding-inline: 2px;
+    background-color: #ffffff;
+    max-width: 910px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    padding: 25px;
+    padding-top: 0px;
+    font-size: 25px;
+    color: #4aaaa5;
+} 
+
 .h2 {
     margin-left: 0;
     padding: 0;
@@ -102,16 +115,18 @@ nav a:hover {
 .button {
     background-color: #4aaaa5;
     border: none;
-    color: white;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 15px 32px;
+    color: #ffffff;
+    padding: 10px 52px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 12px;
     margin: 4px 2px;
     cursor: pointer;
-    width: 18px;
+    width: 32px;
+    height: 35px;
+
 }
 
 p {   
@@ -129,6 +144,17 @@ img {
     margin: 20px;
     margin-left: 0;
 }
+
+
+.sqs-block-button{
+    display:table;
+    min-height:60px;
+ }
+ .sqs-block-button .sqs-block-button-element--small{
+    display: table-cell;
+    vertical-align: middle;
+    line-height:1.2em;
+ }
 
 .footer {
     position: fixed;
